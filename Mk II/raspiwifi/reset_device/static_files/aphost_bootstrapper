@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python3 /usr/lib/raspiwifi/configuration_app/app.py &
+
+hostapd -dd /etc/hostapd/hostapd.conf &
